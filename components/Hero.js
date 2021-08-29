@@ -1,5 +1,5 @@
 import React from "react"
-import CV from "../components/cv"
+import CV from "../components/CV"
 import Image from 'next/image'
 import HeroImage from "../images/Hero.png"
 

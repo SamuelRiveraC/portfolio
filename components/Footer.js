@@ -1,6 +1,6 @@
 import React from "react"
-import Contact from "../components/contact"
-import CV from "../components/cv"
+import Contact from "../components/Contact"
+import CV from "../components/CV"
 
 export default function Footer (){
 	return (

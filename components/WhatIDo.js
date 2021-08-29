@@ -1,6 +1,6 @@
 import React from "react"
-import CV from "../components/cv"
-import CTA from "../components/cta"
+import CV from "../components/CV"
+import CTA from "../components/CTA"
 import Skills from "../content/skills.json"
 import Image from 'next/image'
               
