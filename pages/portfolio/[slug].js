@@ -1,8 +1,8 @@
 import React from "react"
 import { useRouter } from 'next/router'
 import Link from 'next/link'
-import Layout from "../../components/layout"
-import SEO from "../../components/seo"
+import Layout from "../../components/Layout"
+import SEO from "../../components/SEO"
 
 import fs from 'fs'
 import { promises } from 'fs'
