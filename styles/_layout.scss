@@ -1,0 +1,71 @@
+html,body {
+	min-height: 100vh;
+	font-size: 16px;
+	overflow-x: hidden;
+	position:relative;
+}
+.app {
+	& {
+		transition: 0.5s all;
+	}
+	background: $light_1;
+	color: $dark_1;
+	
+	font-family: "Montserrat";
+
+	h1,h2,h3,h4,h5,h6 {
+		color:$primary;
+		font-family: "Exo 2";
+		font-weight: 900;
+	}
+	h1, h2 {
+		margin-bottom:2rem;
+	}
+}
+
+a {
+	text-decoration: none;
+	color: $primary;
+
+	&:hover{
+		color: $dark_1 ;
+		text-decoration: none;
+	}
+}
+
+.card {
+	min-height:10em;
+	border:none;
+	background-color: $light_2;
+	color:$dark_2;
+	margin-bottom: 1em;
+	border-radius: 0;
+	padding: 1em 2em;
+	margin: 2em 1em;
+	@include shadow_1;
+}
+
+.darkmode {
+	&.app {
+		background: $dark_1;
+		color: $light_1;
+	}
+
+	.card {
+		background-color: $dark_2;
+		color:$light_1;
+	}
+
+	h1,h2,h3,h4,h5,h6 {
+		color:$primary_hover;
+		font-family: "Exo 2";
+		font-weight: 900;
+	}
+
+	a {
+		color: $primary_hover;
+		&:hover{
+			color: $primary
+		}
+	}
+}

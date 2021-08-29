@@ -1,0 +1,51 @@
+{
+	"back":[
+		{"skill":"PHP","color":"777BB3","logo":"php"},
+		{"skill":"Codeigniter","color":"FE3A00","logo":"codeigniter"},
+		{"skill":"Laravel","color":"FF2D20","logo":"laravel"},
+		{"skill":"Wordpress","color":"21759B","logo":"wordpress"},
+		{"skill":"Woocommerce","color":"96588A","logo":"woo"},
+		{"skill":"Javascript","color":"F7DF1E","logo":"javascript"},
+		{"skill":"NodeJs","color":"339933","logo":"node.js"},
+		{"skill":"AdonisJs","color":"220052","logo":"adonisjs"},
+		{"skill":"ExpressJs","color":"339933","logo":"node.js"},
+		{"skill":"Python","color":"3776AB","logo":"python"},
+		{"skill":"Firebase","color":"FFCA28","logo":"firebase"}
+	],
+	"front":[
+		{"skill":"HTML5","color":"E34F26","logo":"html5"},
+		{"skill":"CSS3","color":"1572B6","logo":"css3"},
+		{"skill":"Bootstrap","color":"563D7C","logo":"bootstrap"},
+		{"skill":"Sass","color":"CC6699","logo":"sass"},
+		{"skill":"JQuery","color":"0769AD","logo":"jquery"},
+		{"skill":"React","color":"61DAFB","logo":"react"},
+		{"skill":"Redux","color":"764ABC","logo":"redux"},
+		{"skill":"NextJS","color":"111111","logo":"next.js"},
+		{"skill":"GatsbyJS","color":"663399","logo":"gatsby"},
+		{"skill":"Vue","color":"4FC08D","logo":"vue.js"},
+		{"skill":"Vuex","color":"35495E","logo":"vue.js"},
+		{"skill":"NuxtJS ","color":"00C58E","logo":"nuxt.js"},
+		{"skill":"ChartJS","color":"111111","logo":"chartjs"}
+	],
+	"db":[
+		{"skill":"Mysql","color":"4479A1","logo":"mysql"},
+		{"skill":"PostgreSQL","color":"336791","logo":"PostgreSQL"},
+		{"skill":"MongoDB","color":"47A248","logo":"mongodb"},
+		{"skill":"GraphQL","color":"E535AB","logo":"graphql"},
+		{"skill":"Apollo","color":"111111","logo":"apollo%20graphql"},
+		{"skill":"JSON Web Tokens","color":"000000","logo":"json"}
+	],
+	"tools":[
+		{"skill":"Git","color":"181717","logo":"GitHub"},
+		{"skill":"Google Calendar","color":"4285F4","logo":"Google%20Calendar"},
+		{"skill":"Google Drive","color":"4285F4","logo":"Google%20Drive"},
+		{"skill":"Trello","color":"0079BF","logo":"trello"},
+		{"skill":"Photoshop","color":"26C9FF","logo":"adobe%20photoshop"},
+		{"skill":"Figma","color":"F24E1E","logo":"figma"},
+		{"skill":"Insomnia","color":"5849BE","logo":"insomnia"},
+		{"skill":"Telegram","color":"2CA5E0","logo":"telegram"},
+		{"skill":"Slack","color":"4A154B","logo":"slack"},
+		{"skill":"Discord","color":"7289DA","logo":"discord"},
+		{"skill":"Jira","color":"0052CC","logo":"jira"}
+	]
+}

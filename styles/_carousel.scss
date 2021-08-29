@@ -1,0 +1,48 @@
+.carousel {
+	img {
+		@include shadow_1;
+		border-radius: 50%;
+		width: 64px !important;
+	}
+	&.carousel-slider {
+		@include shadow_1;
+	} .slide { 
+		border-radius:5px;
+		background: $light_3 !important;
+	} .card {
+		margin:0;
+		box-shadow: none;
+		background: $light_3 !important;
+	} 
+
+	.control-dots {
+		.dot {
+			border:1px solid rgba(0,0,0,0.5);
+			width: 12px !important;
+			height: 12px !important;
+			box-shadow:none !important;
+			&.selected {
+			
+			}
+		}
+	}
+}
+.carousel-status {
+	display: none;
+}
+
+.carousel.carousel-slider .control-arrow {
+	margin:0; padding:0; 
+	min-width: 3rem;
+    height: 100%;
+}
+
+.darkmode {
+	.carousel {
+		.slide { 
+			background: $dark_2 !important;
+		} .card {
+			background: $dark_2 !important;
+		} 
+	}	
+}

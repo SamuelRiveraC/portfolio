@@ -1,0 +1,20 @@
+.alert  {
+	
+	margin: 1rem 2rem; 
+	padding-top: 1rem; 
+	padding-bottom: 1rem; 
+
+	border: 1px solid $primary;
+	color: $primary;
+
+	border-radius: 0;
+	transition: all 0.25s linear;
+	opacity: 0;
+
+	&.success, &.error {
+		opacity: 1 !important;
+	}
+	&.none {
+		opacity: 0;
+	}
+}

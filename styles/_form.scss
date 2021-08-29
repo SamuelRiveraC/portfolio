@@ -1,0 +1,29 @@
+.input {
+	.error {
+		color: $primary_hover;
+	}
+}
+.form-control {
+	border-radius:0px;
+	outline: none;
+	border: 1px solid #ddd;
+	background: #ddd;
+	&:active, &:focus {
+		color: $dark_3;
+		background: #ddd;
+		border: 1px solid #ddd;
+		box-shadow: none;
+	}
+}
+textarea {
+	min-height: 12rem;
+}
+
+.darkmode {
+	.form-control {
+		border: 1px solid $dark_3;
+		background: $dark_3;
+		color: $light_1;
+	}
+
+}

@@ -1,0 +1,35 @@
+.hero {
+	min-height:100vh;
+	justify-content: center;
+	align-items:center;
+	position:relative;
+
+	& .hero__arrow {
+	    position: absolute;
+    	bottom: 2.5%;
+    	left: 50%;
+    	-webkit-transform: translate(-50%,0);
+    	transform: translate(-50%,0);
+    	height: 0;
+    	border-left: 10px solid transparent;
+    	border-right: 10px solid transparent;
+    	border-top: 25px solid $primary;
+
+    	cursor: pointer;
+
+		animation: FloatIn 2s ease-in-out infinite;
+	}	
+
+	& .hero__img {
+		max-width:100%;
+	}
+}
+
+@keyframes FloatIn {
+  0%, 100% {
+    transform: translate(-50%, 0.5rem);
+  }
+  50% {
+    transform: translate(-50%, -0.5rem);
+  }
+}

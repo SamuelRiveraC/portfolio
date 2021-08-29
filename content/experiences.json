@@ -1,0 +1,22 @@
+[
+	{
+		"color":"#EA0001",
+		"title":"PDVSA – Internship – 2-2018 / 5-2018",
+		"content":"I was tasked to create a system to register and process the company’s contracts, I made an extensive analysis of the user stories told by +10 members of the company’s administration agency, then I designed the system on paper according to the company’s standards and methodologies, then developed an app on Codeigniter and used Postgres as a database, which was successfully integrated at the company’s regional area of operations workflow (The Orinoco Oil Belt)"
+	},
+	{
+		"color":"#FF6D00",
+		"title":"Orinoco.io – 5-2018 / 10-2018",
+		"content":"One of the few jobs I took locally, it was about designing and develop a single page application with Vue and GraphQL, for a local crypto exchange that trades SteemDollars and Bitcoins for local currency. It was a success and now trades dozens of crypto and fiat currencies, and it is used by more than 13.000 users and made more than 265.000 transactions."
+	},
+	{
+		"color":"#0B5ED7",
+		"title":"Freelance Web Developer – 10-2018 / Today",
+		"content":"I have been working for more than 15 clients at Upwork and other platforms from different parts of the world, With an average rating of 4.93/5 stars per job done. With different scopes and requirements that range from technical support to developing or updating new themes and plugins for the WordPress platform."
+	},
+	{
+		"color":"#FF6D00",
+		"title":"OrinocoDev – 06-2021 / Today",
+		"content":"I was hired again at Orinoco to join their team (OrinocoDEV) part-time, and support them with the development and refactoring of different web apps they've been building, including a Doordash clone and an online courses platform. The team needed to increase their productivity and code quality which i gladly offered my knowledge in software project methodologies to implement Test-driven development on their scrum methodology, increasing code quality and reducing technical debt as low as possible."
+	}
+]

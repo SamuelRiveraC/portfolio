@@ -1,0 +1,21 @@
+footer {
+	text-align: center;
+	margin-top: 1em;
+	line-height: 3em;
+}
+
+.social_media {
+	margin: 2em 1em 0 1em;
+	color:$dark_1;
+	&:hover {
+		color:$primary;
+	}
+}
+
+.darkmode {
+	footer {
+		img{
+			filter: invert(1);
+		}
+  	}
+}

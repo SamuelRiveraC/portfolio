@@ -1,0 +1,96 @@
+button {
+	cursor: pointer;
+	background:none;
+    font-weight: bold;
+	min-width: 12rem;
+	text-align: center;
+	border: 1px solid $light_2;
+	background: $light_2;
+
+	outline: none;
+	padding:1em 2em;
+	margin: 0 0.25em;
+	margin-bottom: 1rem;
+	color: $dark_1;
+
+	border-radius:0;
+
+	@include shadow_1;
+	@include transition_general;
+
+	&:hover{
+		background: $light_3;
+		color: $dark_1 ;
+		transform: translateY(-4px);
+		@include shadow_2;
+	}
+	&:active{
+		background: $light_1;
+		border: 1px solid $light_1;
+		transform: translateY(0);
+		box-shadow: none;
+	}
+	&:disabled{
+		background: transparent !important;
+		border: 1px solid $dark_3 !important;
+		color: $dark_3 !important;
+		transform: translateY(0)  !important;
+		box-shadow: none !important;
+	}
+
+	&.primary{
+		background: $primary;
+		color: $light_2;
+		border: 1px solid $primary;
+	}
+	&.primary:hover{
+		background: $primary_hover;
+		color: $light_1;
+		border: 1px solid $primary_hover;
+		@include shadow_2;
+	}
+	&.primary:active{
+		background: $primary_focus;
+		border: 1px solid $primary_focus;
+		box-shadow:none;
+	}
+
+
+	&.outline{
+		background: none;
+		color: $primary;
+		border: 1px solid $primary;
+		box-shadow:none;
+	}
+	&.outline:hover{
+		color: $primary_hover;
+		border: 1px solid $primary_hover;
+		transform: none;
+	}
+	&.outline:active{
+		background: $primary_focus;
+		border: 1px solid $primary_focus;
+		color: $light_2;
+		transform: none;
+	}
+
+
+	&.flat{
+		background: none;
+		color: $primary;
+		border: 1px solid transparent;
+		box-shadow:none;
+		transform: none;
+	}
+	&.flat:hover{
+		color: $primary_hover;
+		transform: none;
+	}
+	&.flat:active{
+		color: $primary_focus;
+		transform: none;
+	}
+
+
+
+}

@@ -1,0 +1,49 @@
+@mixin nav_buttons {
+	cursor: pointer;
+	margin: 1.6em 3.2em;
+	width: 4rem;	height: 4rem;
+	min-width:0 !important;
+	border-radius: 50%;
+	@include transition_general;
+	svg {
+		position: absolute;
+		top:50%;left: 50%;
+		transform:translate(-50%,-50%);
+	}
+
+	transition: 0.25s all;
+}
+
+.nav__toggle {
+	position: fixed;
+	z-index: 5;
+	border: none;
+
+
+	@include nav_buttons;
+	
+	margin: 1.6em 7.2em;
+	@include shadow_2;
+	
+
+	background: $light_3;
+	color: $dark_2;
+	
+	&:hover {
+		background: $dark_3;
+		color: $light_3;
+	}	
+}
+
+
+.darkmode {
+	.nav__toggle, {
+		background: $dark_3;
+		color: $light_3;
+
+		&:hover {
+			background: $light_3;
+			color: $dark_2;
+		}
+	}
+}
