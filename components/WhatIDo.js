@@ -2,8 +2,8 @@ import React from "react"
 import CV from "../components/cv"
 import CTA from "../components/cta"
 import Skills from "../content/skills.json"
-
-               
+import Image from 'next/image'
+              
 
 export default class WhatIDo extends React.Component {
   render () { return (
@@ -28,7 +28,7 @@ export default class WhatIDo extends React.Component {
           <div className="row backend"> 
             {Skills.back.map((data, index) => {
               return <div className="badge" key={index}> 
-                <img alt="" src={"https://img.shields.io/badge/-"+data.skill+"-"+data.color+"?style=flat-square&logo="+data.logo+"&logoColor=white"} />
+                <img alt={data.skill} src={"https://img.shields.io/badge/-"+data.skill+"-"+data.color+"?style=flat-square&logo="+data.logo+"&logoColor=white"} />
               </div>
             })}
           </div>
@@ -39,7 +39,7 @@ export default class WhatIDo extends React.Component {
           <div className="row front"> 
             {Skills.front.map((data, index) => {
               return <div className="badge" key={index}> 
-                <img alt="" src={"https://img.shields.io/badge/-"+data.skill+"-"+data.color+"?style=flat-square&logo="+data.logo+"&logoColor=white"} />
+                <img alt={data.skill} src={"https://img.shields.io/badge/-"+data.skill+"-"+data.color+"?style=flat-square&logo="+data.logo+"&logoColor=white"} />
               </div>
             })}
           </div>
@@ -50,7 +50,7 @@ export default class WhatIDo extends React.Component {
           <div className="row db"> 
             {Skills.db.map((data, index) => {
               return <div className="badge" key={index}> 
-                <img alt="" src={"https://img.shields.io/badge/-"+data.skill+"-"+data.color+"?style=flat-square&logo="+data.logo+"&logoColor=white"} />
+                <img alt={data.skill} src={"https://img.shields.io/badge/-"+data.skill+"-"+data.color+"?style=flat-square&logo="+data.logo+"&logoColor=white"} />
               </div>
             })}
           </div>
@@ -73,7 +73,7 @@ export default class WhatIDo extends React.Component {
           <div className="row tools"> 
             {Skills.tools.map((data, index) => {
               return <div className="badge" key={index}> 
-                <img alt="" src={"https://img.shields.io/badge/-"+data.skill+"-"+data.color+"?style=flat-square&logo="+data.logo+"&logoColor=white"} />
+                <img alt={data.skill} src={"https://img.shields.io/badge/-"+data.skill+"-"+data.color+"?style=flat-square&logo="+data.logo+"&logoColor=white"} />
               </div>
             })}
           </div>

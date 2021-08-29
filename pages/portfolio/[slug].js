@@ -12,12 +12,13 @@ import matter from 'gray-matter'
 import {remark} from 'remark'
 import remarkHtml from 'remark-html'
 
+import NotFoundPage from "../404"
 
 const PortfolioPostTemplate = ({  post, morePosts, preview }) => {
 
   const router = useRouter()
   if (!router.isFallback && !post?.slug) {
-    return <ErrorPage statusCode={404} />
+    return <NotFoundPage />
   }
 
   const previous = "", next = ""
@@ -59,7 +60,7 @@ const PortfolioPostTemplate = ({  post, morePosts, preview }) => {
               </div>}
 
               {post.website !== "" && <div className="col-12">
-                <a href={post.website} target="_blank"> 
+                <a href={post.website} target="_blank" rel="noreferrer"> 
                   <button className="outline"> 
                     See it live 
                   </button> 

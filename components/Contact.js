@@ -111,7 +111,7 @@ export default class Contact extends React.Component {
 					<div className="input">
 					    <textarea name="message" className="form-control" placeholder="Your message" onChange={this.handleChange.bind(this, 'message')}></textarea>
 					    {(this.state.messageValid && !this.state.messageFirst) || (this.state.messageValid  === false && !this.state.messageFirst === false) ?
-			     		<br /> : <p className="error"> Please let me know about you! that's how I can help you :)  </p> }
+			     		<br /> : <p className="error"> Please let me know about you! that&apos;s how I can help you :)  </p> }
 					</div>
 				</div>
 				<div className="col-12 text-center">

@@ -13,7 +13,7 @@ const NotFoundPage = () => (
   					<h1>404 NOT FOUND</h1> 
   					<Image src={ObiWan} alt="404" />
   					<br />
-  					<h3>These aren't the links you are looking for.</h3>
+  					<h3>These aren&apos;t the links you are looking for.</h3>
   					<p>Lucky for you I have some links that you may be interested on :)</p>
 						<br />
   		      <Link className="mb-3" href="/" >
