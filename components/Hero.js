@@ -1,4 +1,5 @@
 import React from "react"
+import CTA from "../components/CTA"
 import CV from "../components/CV"
 import Image from 'next/image'
 import HeroImage from "../images/Hero.png"
@@ -21,7 +22,7 @@ export default class Hero extends React.Component {
           <p>
             Hi, thanks for checking out my profile! I’m Samuel Rivera, a Front end engineer and web developer with more than 3 years of experience developing purposeful, consistent and attractive interfaces for business, startups and tech companies to appeal to clients and maintain their interest
           </p>
-          <button className="primary"> Contact me </button>
+          <CTA />
           <CV/>
         </div>
 

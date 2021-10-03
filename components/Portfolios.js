@@ -14,7 +14,7 @@ export default function Portfolios(props) {
 
       { props.portfolios.map((item,index) => {
         return <div key={index} className="col-12 col-sm-6 col-md-4">
-          <Link key={index} href={`/portfolio/${item.slug}`}>
+          <Link key={index} href={'/portfolio/'+item.slug}>
             <a>
             <div className="portfolio__item" >
               <div className="portfolio__preview">

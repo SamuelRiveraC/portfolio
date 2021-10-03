@@ -1,9 +1,11 @@
 import React from "react"
+import Link from 'next/link'
 
 export default function CTA () {
+    const executeScrollToContact = () => {
+      document.getElementById('contact-me').scrollIntoView({ behavior: 'smooth' });
+    }
   return (
-    <a href="#contact-me">
-      <button className="primary"> Contact Me </button> 
-    </a>
+    <button className="primary" onClick={() => executeScrollToContact()}> Contact Me </button> 
     )
 }

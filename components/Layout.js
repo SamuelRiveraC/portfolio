@@ -3,12 +3,12 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Social from "../content/social.json"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faEnvelope, faMoon, faSun } from '@fortawesome/free-solid-svg-icons'
+import { faEnvelope, faMoon, faSun, faHome } from '@fortawesome/free-solid-svg-icons'
 import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
-const icons = {"Email" :faEnvelope, "Linkedin" :faLinkedin,  "Github" :faGithub}
 import SRCLogo from "../images/SRC-Logo.png"
+import Link from 'next/link'
 
-
+const icons = {"Email" :faEnvelope, "Linkedin" :faLinkedin,  "Github" :faGithub}
 
 export default class Layout extends React.Component {
   constructor(props) {
@@ -86,7 +86,13 @@ export default class Layout extends React.Component {
         </Head>
   
 
-        <button className="nav__toggle" onClick={() => this.darkmode() }>
+        <button className="nav__toggle">
+          <Link href="/" passHref> 
+            <FontAwesomeIcon icon={faHome} size="2x" />
+          </Link>
+        </button>
+
+        <button className="nav__toggle" style={{margin:"1.6rem 12rem"}} onClick={() => this.darkmode() }>
           {!this.state.darkmode && <FontAwesomeIcon icon={faMoon} size="2x" /> }
           { this.state.darkmode && <FontAwesomeIcon icon={faSun } size="2x" /> }
         </button>

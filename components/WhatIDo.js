@@ -6,7 +6,12 @@ import Image from 'next/image'
               
 
 export default class WhatIDo extends React.Component {
-  render () { return (
+  
+  render () { 
+  const executeScrollToBottom = () => {
+    window.scrollTo({ top: 9999999, behavior: 'smooth' }) // cheap trick
+  }
+  return (
   <div className="container" >
     <div className="row align-items-center" >
       <div className="col-12 text-center" >

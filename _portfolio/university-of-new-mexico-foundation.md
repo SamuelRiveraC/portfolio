@@ -19,4 +19,4 @@ testimonial: ""
 testimonialAuthor: ""
 testimonialRole: ""
 ---
-![University of New Mexico Foundation]( /portfolio/unmf-1.png 'University of New Mexico Foundation')
+![University of New Mexico Foundation]( /portfolio/unmf-1.jpg 'University of New Mexico Foundation')

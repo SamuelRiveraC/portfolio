@@ -4,7 +4,7 @@ import CV from "../components/CV"
 
 export default function Footer (){
 	return (
-    <div className="container">
+    <div className="container" id="contact-me">
 		<div className="row">
     	    <div className="col-12 col-md-6">
     	    	<h2 >About Me</h2>
