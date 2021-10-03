@@ -86,11 +86,11 @@ export default class Layout extends React.Component {
         </Head>
   
 
-        <button className="nav__toggle">
-          <Link href="/" passHref> 
+        <Link href="/" passHref> 
+          <button className="nav__toggle">
             <FontAwesomeIcon icon={faHome} size="2x" />
-          </Link>
-        </button>
+          </button>
+        </Link>
 
         <button className="nav__toggle" style={{margin:"1.6rem 12rem"}} onClick={() => this.darkmode() }>
           {!this.state.darkmode && <FontAwesomeIcon icon={faMoon} size="2x" /> }
