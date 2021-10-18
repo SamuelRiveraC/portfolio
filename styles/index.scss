@@ -34,3 +34,16 @@
 .separator {
 	min-height:4rem;
 }
+
+#nprogress {
+	.bar {
+	  background: $primary !important;
+	}
+	.peg {
+	  box-shadow: 0 0 10px $primary, 0 0 5px $primary;
+	}
+	.spinner .spinner-icon {
+	  border-top-color: $primary;
+	  border-left-color: $primary;
+	}
+}
